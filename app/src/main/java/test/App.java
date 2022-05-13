@@ -14,8 +14,7 @@ public class App {
 		System.out.println(sum2D(a)); //should print 30
 	}
 	
-	public static int sum2D(int[][] nums)
-	{
+	public static int sum2D(int[][] nums){
 		return -1;
 	}
 }
