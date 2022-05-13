@@ -14,12 +14,12 @@ class AppTest {
           {4,5,6},
           {1,3,5}
       };
-      assertEquals(30,Main.sum2D(a));
+      assertEquals(30,App.sum2D(a));
       int[][] b = {
           {-2,-1,1},
           {-2,2,2},
           {123,123,123}
       };
-      assertEquals(369,Main.sum2D(b));
+      assertEquals(369,App.sum2D(b));
     }
 }
