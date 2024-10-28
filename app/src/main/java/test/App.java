@@ -15,6 +15,12 @@ public class App {
 	}
 	
 	public static int sum2D(int[][] nums){
-		return -1;
+		int sum = 0;
+		for(int row = 0; row < nums.length; row++){
+			for(int col = 0; col < nums[0].length; col++){
+				sum += nums[row][col];
+			}
+		}
+		return sum;
 	}
 }
